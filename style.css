@@ -3,7 +3,7 @@
 * {
     margin: 0px;
     font-family: 'Oxygen';
-    
+    box-sizing: border-box;
 }
 
 a {
@@ -13,7 +13,6 @@ a {
 .container {
     width: 100%;
     margin: 0 auto;
-    
     width: 100%;   /*lebar containter 100% agar jika di zoom in menu di heade-right tetep tampil */
     max-width: 1170px;   /*jika di zoom out, posisi objek di container tetap ditengah sesuai ukuran max */
     margin: 0 auto;
@@ -62,13 +61,14 @@ header {
     transition: all 0.5s;
 }
 
+
 .top-wrapper {
-    padding: 290px 0 100px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/web-designer1-res.jpg');   
+    padding: 250px 0 200px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../digitalent-oa-master/images/web-designer1-res.jpg');   
     background-size: cover;
     color: white;
     text-align: center;
-    height: 268px;
+    height: 600px;
 }
 
 .top-title {
