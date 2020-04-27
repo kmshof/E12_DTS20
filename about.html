@@ -91,8 +91,8 @@
         <p class="text-footer">Copyright &#169; 2020, E12-Team</p>
     </footer>
 
-    <script>
-        function myFunction() {
+       <!--<script>
+       function myFunction() {
           var x = document.getElementById("headerRight");
           var y = document.getElementById("myProfiles");
           if (x.className === "header-right") {
@@ -105,7 +105,17 @@
           } else {
             x.className = "profiles";
           }
+       }
+    </script>  -->
 
+    <script>
+        function myFunction() {
+          var x = document.getElementById("headerRight");
+          if (x.className === "header-right") {
+            x.className += " responsive";
+          } else {
+            x.className = "header-right";
+          }
 
         }
     </script>
