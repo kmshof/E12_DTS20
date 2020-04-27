@@ -79,6 +79,10 @@
             float: left;
             transition: all 0.5s;
      }
+    
+        .profiles{
+            margin-top: 30px;
+        }
 
         .profile {
            width: 50%;
