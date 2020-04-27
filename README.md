@@ -1,5 +1,5 @@
 # digitalent-oa
-Merupakan proyek tim pada program digitalent oa html, css, dan javascript yang terbentuk dalam E12-Team.
+Merupakan proyek tim pada program Online Academy Digitalent Tahun 2020 mengenai html, css, dan javascript yang terbentuk dalam E12-Team.
 Tim ini terdri dari:
 1. Kurniawan Saputra
 2. KM Shofuan
