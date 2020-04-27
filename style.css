@@ -11,8 +11,6 @@ a {
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
     width: 100%;   /*lebar containter 100% agar jika di zoom in menu di heade-right tetep tampil */
     max-width: 1170px;   /*jika di zoom out, posisi objek di container tetap ditengah sesuai ukuran max */
     margin: 0 auto;
@@ -304,7 +302,7 @@ footer {
 
 .profile {
     float: left;
-    width: 33.33%;
+    width: 25%;
     padding-top: 80px;
 
 }
@@ -314,8 +312,8 @@ footer {
 }
 
 .profile-img img {
-    border-radius: 50%;
-    width: 200px;
+     border-radius: 50%; 
+     width: 200px; 
 }
 
 .name {
@@ -325,7 +323,7 @@ footer {
     font-size: 20px;
     color: black;
     margin-bottom: 40px;
-}
+}   
 
 .menu-icon {
     cursor: pointer;
