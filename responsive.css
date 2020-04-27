@@ -13,17 +13,24 @@
         flex-wrap: wrap;
     }
 
+    .container {
+        width: 100%;
+    }
+
     .profiles{
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     .profile{
         width:100%;
-        display: block-inline;
+        display: block-inline; 
+        text-align: center;
+  
     }
-
+    
     .hamburger {
         display: block;
-        /*padding: 0px 20px;*/
+        padding: 0px 20px;
     }
     .header-right{
         display: none;
@@ -41,12 +48,13 @@
     }
 
     .profiles{
+        width : 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: auto;
         padding:0 auto;
-    }
+    }   
 
     
 }
@@ -79,7 +87,7 @@
             float: left;
             transition: all 0.5s;
      }
-    
+
         .profiles{
             margin-top: 30px;
         }
@@ -92,5 +100,9 @@
          
         .project-img img {
             width: 500px;
+        }
+
+        heading{
+            padding-top: 40px;
         }
 }
