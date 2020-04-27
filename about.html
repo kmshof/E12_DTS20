@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,7 +16,10 @@
             <div class="header-left">
                 <a href="index.html">E12-Team</a>
             </div>
-            <div class="header-right">
+            <div class="hamburger" id="myHamburger" onclick="myFunction()">
+                <span class="fa fa-bars menu-icon"></span>
+            </div>
+            <div class="header-right" id="headerRight">
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </div>
@@ -29,7 +34,7 @@
                 <p>E12-Team is a Web Developer Team base in Indonesia. </p>
                 <p>Our team consist of Kurniawan Saputra, KM Shofuan, Hudan, Imran, Imam Syafi'i</p>  
                 <p>We are commit to provide our best service to fullfill your website needs.</p>
-                <div class="profiles">
+                <div class="profiles" id="myProfiles">
                     <div class="profile">
                         <div class="profile-img">
                             <img src="images/profile.jpg" alt="">
@@ -85,6 +90,25 @@
     <footer>
         <p class="text-footer">Copyright &#169; 2020, E12-Team</p>
     </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("headerRight");
+          var y = document.getElementById("myProfiles");
+          if (x.className === "header-right") {
+            x.className += " responsive";
+          } else {
+            x.className = "header-right";
+          }
+          if (x.className === "profiles") {
+            x.className += " responsive";
+          } else {
+            x.className = "profiles";
+          }
+
+
+        }
+    </script>
 </body>
 
 </html>

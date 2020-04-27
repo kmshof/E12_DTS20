@@ -11,6 +11,9 @@ a {
 }
 
 .container {
+    width: 100%;
+    margin: 0 auto;
+    
     width: 100%;   /*lebar containter 100% agar jika di zoom in menu di heade-right tetep tampil */
     max-width: 1170px;   /*jika di zoom out, posisi objek di container tetap ditengah sesuai ukuran max */
     margin: 0 auto;
@@ -42,6 +45,7 @@ header {
 
 .header-right {
     float: right;
+    margin-right: 25px;
 }
 
 .header-right a:hover {
@@ -111,8 +115,6 @@ header {
     color: rgb(49, 49, 49);
     /*set animation */
     background-position: 0% 50%;
-
-
 }
 
 .main-wrapper {
@@ -325,3 +327,20 @@ footer {
     color: black;
     margin-bottom: 40px;
 }
+
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    color:white;
+    font-size: 25px;
+    padding: 21px 21px;
+    position: relative;
+    
+}
+
+
+.hamburger{
+    float: right;
+    display: none;
+}
+
