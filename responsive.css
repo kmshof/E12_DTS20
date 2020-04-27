@@ -23,7 +23,7 @@
 
     .hamburger {
         display: block;
-        padding: 0px 20px;
+        /*padding: 0px 20px;*/
     }
     .header-right{
         display: none;
@@ -62,10 +62,7 @@
         width: 50%;
     }
 
-    .header-right {
-        padding-right: 100px;
-        
-    }
+    
         
     .header-right a:hover {
             background-color: white;
